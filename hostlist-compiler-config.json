@@ -74,36 +74,6 @@
       ]
     },
     {
-      "name": "IDN: ABPindo",
-      "source": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "KOR: YousList",
-      "source": "https://raw.githubusercontent.com/yous/YousList/master/hosts.txt",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "NOR: Dandelion Sprouts nordiske filtre",
-      "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianExperimentalList%20alternate%20versions/NordicFiltersAdGuardHome.txt",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
       "name": "Dandelion Sprout's Anti-Malware List (for AdGuard Home, and for AdGuard for Android/Windows' DNS filtering)",
       "source": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt",
       "type": "adblock",
@@ -114,58 +84,8 @@
       ]
     },
     {
-      "name": "POL: Polish filters for Pi hole",
-      "source": "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "SWE: Frellwit's Swedish Hosts File",
-      "source": "https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/Frellwits-Swedish-Hosts-File.txt",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
       "name": "CHN: anti-AD",
       "source": "https://anti-ad.net/easylist.txt",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "NLD: Easylist",
-      "source": "https://easylist-downloads.adblockplus.org/easylistdutch.txt",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "IRN: Unwanted Iranian domains",
-      "source": "https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/unwanted-iranian.txt",
-      "type": "adblock",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "MKD: Macedonian Pi-hole Blocklist",
-      "source": "https://raw.githubusercontent.com/cchevy/macedonian-pi-hole-blocklist/master/hosts.txt",
       "type": "adblock",
       "transformations": [
         "RemoveComments",
@@ -286,16 +206,6 @@
     {
       "name": "Lightswitch05 - Tracking Aggressive",
       "source": "https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt",
-      "type": "hosts",
-      "transformations": [
-        "RemoveComments",
-        "Compress",
-        "Validate"
-      ]
-    },
-    {
-      "name": "PolishFiltersTeam - KADhosts",
-      "source": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "type": "hosts",
       "transformations": [
         "RemoveComments",
